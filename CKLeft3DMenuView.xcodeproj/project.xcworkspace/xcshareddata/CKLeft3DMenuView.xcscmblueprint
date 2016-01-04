@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A0326A72F4FB6F8D66AED0184278E78C95088130",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A0326A72F4FB6F8D66AED0184278E78C95088130" : 0,
+    "7F1FD5B8836AF776A56F2C6FFF16F222D2859F8A" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "56170C14-0212-42D9-819C-8B41B05F23B6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A0326A72F4FB6F8D66AED0184278E78C95088130" : "CKLeft3DMenu\/",
+    "7F1FD5B8836AF776A56F2C6FFF16F222D2859F8A" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CKLeft3DMenuView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CKLeft3DMenuView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Yck-Dakucha\/CKLeft3DMenuView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7F1FD5B8836AF776A56F2C6FFF16F222D2859F8A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Yck-Dakucha\/CKLeft3DMenuView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A0326A72F4FB6F8D66AED0184278E78C95088130"
+    }
+  ]
+}

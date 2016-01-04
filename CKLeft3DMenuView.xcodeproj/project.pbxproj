@@ -1,0 +1,596 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F491DCE91C35145700A81D53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F491DCE81C35145700A81D53 /* main.m */; };
+		F491DCEC1C35145700A81D53 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F491DCEB1C35145700A81D53 /* AppDelegate.m */; };
+		F491DCF21C35145700A81D53 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F491DCF01C35145700A81D53 /* Main.storyboard */; };
+		F491DCF71C35145700A81D53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F491DCF51C35145700A81D53 /* LaunchScreen.storyboard */; };
+		F491DD021C35145700A81D53 /* CKLeft3DMenuViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F491DD011C35145700A81D53 /* CKLeft3DMenuViewTests.m */; };
+		F491DD0D1C35145700A81D53 /* CKLeft3DMenuViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F491DD0C1C35145700A81D53 /* CKLeft3DMenuViewUITests.m */; };
+		F491DD201C35159600A81D53 /* CKContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F491DD1F1C35159600A81D53 /* CKContainerViewController.m */; };
+		F491DD221C351AF300A81D53 /* MenuItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = F491DD211C351AF300A81D53 /* MenuItems.plist */; };
+		F491DD271C351BDD00A81D53 /* CKMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F491DD261C351BDD00A81D53 /* CKMenuViewController.m */; };
+		F491DD2A1C351E3300A81D53 /* CKMenuViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F491DD291C351E3300A81D53 /* CKMenuViewTableViewCell.m */; };
+		F491DD2E1C3522A000A81D53 /* CKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F491DD2D1C3522A000A81D53 /* CKDetailViewController.m */; };
+		F491DD321C352BA500A81D53 /* UIColor+colorArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F491DD311C352BA500A81D53 /* UIColor+colorArray.m */; };
+		F491DD341C352E2300A81D53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F491DD331C352E2300A81D53 /* Assets.xcassets */; };
+		F491DD3F1C37AEEA00A81D53 /* UIButton+rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = F491DD3E1C37AEEA00A81D53 /* UIButton+rotate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F491DCFE1C35145700A81D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F491DCDC1C35145700A81D53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F491DCE31C35145700A81D53;
+			remoteInfo = CKLeft3DMenuView;
+		};
+		F491DD091C35145700A81D53 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F491DCDC1C35145700A81D53 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F491DCE31C35145700A81D53;
+			remoteInfo = CKLeft3DMenuView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F491DCE41C35145700A81D53 /* CKLeft3DMenuView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CKLeft3DMenuView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F491DCE81C35145700A81D53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F491DCEA1C35145700A81D53 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F491DCEB1C35145700A81D53 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F491DCF11C35145700A81D53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F491DCF61C35145700A81D53 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F491DCF81C35145700A81D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F491DCFD1C35145700A81D53 /* CKLeft3DMenuViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CKLeft3DMenuViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F491DD011C35145700A81D53 /* CKLeft3DMenuViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CKLeft3DMenuViewTests.m; sourceTree = "<group>"; };
+		F491DD031C35145700A81D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F491DD081C35145700A81D53 /* CKLeft3DMenuViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CKLeft3DMenuViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F491DD0C1C35145700A81D53 /* CKLeft3DMenuViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CKLeft3DMenuViewUITests.m; sourceTree = "<group>"; };
+		F491DD0E1C35145700A81D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F491DD1E1C35159600A81D53 /* CKContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKContainerViewController.h; sourceTree = "<group>"; };
+		F491DD1F1C35159600A81D53 /* CKContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKContainerViewController.m; sourceTree = "<group>"; };
+		F491DD211C351AF300A81D53 /* MenuItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MenuItems.plist; sourceTree = "<group>"; };
+		F491DD251C351BDD00A81D53 /* CKMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKMenuViewController.h; sourceTree = "<group>"; };
+		F491DD261C351BDD00A81D53 /* CKMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKMenuViewController.m; sourceTree = "<group>"; };
+		F491DD281C351E3300A81D53 /* CKMenuViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKMenuViewTableViewCell.h; sourceTree = "<group>"; };
+		F491DD291C351E3300A81D53 /* CKMenuViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKMenuViewTableViewCell.m; sourceTree = "<group>"; };
+		F491DD2C1C3522A000A81D53 /* CKDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKDetailViewController.h; sourceTree = "<group>"; };
+		F491DD2D1C3522A000A81D53 /* CKDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKDetailViewController.m; sourceTree = "<group>"; };
+		F491DD301C352BA500A81D53 /* UIColor+colorArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+colorArray.h"; sourceTree = "<group>"; };
+		F491DD311C352BA500A81D53 /* UIColor+colorArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+colorArray.m"; sourceTree = "<group>"; };
+		F491DD331C352E2300A81D53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F491DD3D1C37AEEA00A81D53 /* UIButton+rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+rotate.h"; sourceTree = "<group>"; };
+		F491DD3E1C37AEEA00A81D53 /* UIButton+rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+rotate.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F491DCE11C35145700A81D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F491DCFA1C35145700A81D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F491DD051C35145700A81D53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F491DCDB1C35145700A81D53 = {
+			isa = PBXGroup;
+			children = (
+				F491DCE61C35145700A81D53 /* CKLeft3DMenuView */,
+				F491DD001C35145700A81D53 /* CKLeft3DMenuViewTests */,
+				F491DD0B1C35145700A81D53 /* CKLeft3DMenuViewUITests */,
+				F491DCE51C35145700A81D53 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F491DCE51C35145700A81D53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F491DCE41C35145700A81D53 /* CKLeft3DMenuView.app */,
+				F491DCFD1C35145700A81D53 /* CKLeft3DMenuViewTests.xctest */,
+				F491DD081C35145700A81D53 /* CKLeft3DMenuViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F491DCE61C35145700A81D53 /* CKLeft3DMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				F491DD2F1C352B5900A81D53 /* Extensions */,
+				F491DD1A1C35149000A81D53 /* CKViewController */,
+				F491DCF01C35145700A81D53 /* Main.storyboard */,
+				F491DCE71C35145700A81D53 /* Supporting Files */,
+			);
+			path = CKLeft3DMenuView;
+			sourceTree = "<group>";
+		};
+		F491DCE71C35145700A81D53 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F491DCEA1C35145700A81D53 /* AppDelegate.h */,
+				F491DCEB1C35145700A81D53 /* AppDelegate.m */,
+				F491DD211C351AF300A81D53 /* MenuItems.plist */,
+				F491DD331C352E2300A81D53 /* Assets.xcassets */,
+				F491DCF81C35145700A81D53 /* Info.plist */,
+				F491DCF51C35145700A81D53 /* LaunchScreen.storyboard */,
+				F491DCE81C35145700A81D53 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F491DD001C35145700A81D53 /* CKLeft3DMenuViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				F491DD011C35145700A81D53 /* CKLeft3DMenuViewTests.m */,
+				F491DD031C35145700A81D53 /* Info.plist */,
+			);
+			path = CKLeft3DMenuViewTests;
+			sourceTree = "<group>";
+		};
+		F491DD0B1C35145700A81D53 /* CKLeft3DMenuViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F491DD0C1C35145700A81D53 /* CKLeft3DMenuViewUITests.m */,
+				F491DD0E1C35145700A81D53 /* Info.plist */,
+			);
+			path = CKLeft3DMenuViewUITests;
+			sourceTree = "<group>";
+		};
+		F491DD1A1C35149000A81D53 /* CKViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F491DD2B1C35227400A81D53 /* DetailView */,
+				F491DD241C351BB000A81D53 /* MenuView */,
+				F491DD231C351B9D00A81D53 /* Container */,
+			);
+			name = CKViewController;
+			sourceTree = "<group>";
+		};
+		F491DD231C351B9D00A81D53 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				F491DD1E1C35159600A81D53 /* CKContainerViewController.h */,
+				F491DD1F1C35159600A81D53 /* CKContainerViewController.m */,
+			);
+			name = Container;
+			sourceTree = "<group>";
+		};
+		F491DD241C351BB000A81D53 /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				F491DD251C351BDD00A81D53 /* CKMenuViewController.h */,
+				F491DD261C351BDD00A81D53 /* CKMenuViewController.m */,
+				F491DD281C351E3300A81D53 /* CKMenuViewTableViewCell.h */,
+				F491DD291C351E3300A81D53 /* CKMenuViewTableViewCell.m */,
+			);
+			name = MenuView;
+			sourceTree = "<group>";
+		};
+		F491DD2B1C35227400A81D53 /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				F491DD2C1C3522A000A81D53 /* CKDetailViewController.h */,
+				F491DD2D1C3522A000A81D53 /* CKDetailViewController.m */,
+			);
+			name = DetailView;
+			sourceTree = "<group>";
+		};
+		F491DD2F1C352B5900A81D53 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F491DD301C352BA500A81D53 /* UIColor+colorArray.h */,
+				F491DD311C352BA500A81D53 /* UIColor+colorArray.m */,
+				F491DD3D1C37AEEA00A81D53 /* UIButton+rotate.h */,
+				F491DD3E1C37AEEA00A81D53 /* UIButton+rotate.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F491DCE31C35145700A81D53 /* CKLeft3DMenuView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F491DD111C35145700A81D53 /* Build configuration list for PBXNativeTarget "CKLeft3DMenuView" */;
+			buildPhases = (
+				F491DCE01C35145700A81D53 /* Sources */,
+				F491DCE11C35145700A81D53 /* Frameworks */,
+				F491DCE21C35145700A81D53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CKLeft3DMenuView;
+			productName = CKLeft3DMenuView;
+			productReference = F491DCE41C35145700A81D53 /* CKLeft3DMenuView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F491DCFC1C35145700A81D53 /* CKLeft3DMenuViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F491DD141C35145700A81D53 /* Build configuration list for PBXNativeTarget "CKLeft3DMenuViewTests" */;
+			buildPhases = (
+				F491DCF91C35145700A81D53 /* Sources */,
+				F491DCFA1C35145700A81D53 /* Frameworks */,
+				F491DCFB1C35145700A81D53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F491DCFF1C35145700A81D53 /* PBXTargetDependency */,
+			);
+			name = CKLeft3DMenuViewTests;
+			productName = CKLeft3DMenuViewTests;
+			productReference = F491DCFD1C35145700A81D53 /* CKLeft3DMenuViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F491DD071C35145700A81D53 /* CKLeft3DMenuViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F491DD171C35145700A81D53 /* Build configuration list for PBXNativeTarget "CKLeft3DMenuViewUITests" */;
+			buildPhases = (
+				F491DD041C35145700A81D53 /* Sources */,
+				F491DD051C35145700A81D53 /* Frameworks */,
+				F491DD061C35145700A81D53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F491DD0A1C35145700A81D53 /* PBXTargetDependency */,
+			);
+			name = CKLeft3DMenuViewUITests;
+			productName = CKLeft3DMenuViewUITests;
+			productReference = F491DD081C35145700A81D53 /* CKLeft3DMenuViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F491DCDC1C35145700A81D53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CK;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Yang_Cankun;
+				TargetAttributes = {
+					F491DCE31C35145700A81D53 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					F491DCFC1C35145700A81D53 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F491DCE31C35145700A81D53;
+					};
+					F491DD071C35145700A81D53 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = F491DCE31C35145700A81D53;
+					};
+				};
+			};
+			buildConfigurationList = F491DCDF1C35145700A81D53 /* Build configuration list for PBXProject "CKLeft3DMenuView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F491DCDB1C35145700A81D53;
+			productRefGroup = F491DCE51C35145700A81D53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F491DCE31C35145700A81D53 /* CKLeft3DMenuView */,
+				F491DCFC1C35145700A81D53 /* CKLeft3DMenuViewTests */,
+				F491DD071C35145700A81D53 /* CKLeft3DMenuViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F491DCE21C35145700A81D53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F491DD221C351AF300A81D53 /* MenuItems.plist in Resources */,
+				F491DCF71C35145700A81D53 /* LaunchScreen.storyboard in Resources */,
+				F491DD341C352E2300A81D53 /* Assets.xcassets in Resources */,
+				F491DCF21C35145700A81D53 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F491DCFB1C35145700A81D53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F491DD061C35145700A81D53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F491DCE01C35145700A81D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F491DD2E1C3522A000A81D53 /* CKDetailViewController.m in Sources */,
+				F491DD3F1C37AEEA00A81D53 /* UIButton+rotate.m in Sources */,
+				F491DCEC1C35145700A81D53 /* AppDelegate.m in Sources */,
+				F491DD271C351BDD00A81D53 /* CKMenuViewController.m in Sources */,
+				F491DD2A1C351E3300A81D53 /* CKMenuViewTableViewCell.m in Sources */,
+				F491DD321C352BA500A81D53 /* UIColor+colorArray.m in Sources */,
+				F491DD201C35159600A81D53 /* CKContainerViewController.m in Sources */,
+				F491DCE91C35145700A81D53 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F491DCF91C35145700A81D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F491DD021C35145700A81D53 /* CKLeft3DMenuViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F491DD041C35145700A81D53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F491DD0D1C35145700A81D53 /* CKLeft3DMenuViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F491DCFF1C35145700A81D53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F491DCE31C35145700A81D53 /* CKLeft3DMenuView */;
+			targetProxy = F491DCFE1C35145700A81D53 /* PBXContainerItemProxy */;
+		};
+		F491DD0A1C35145700A81D53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F491DCE31C35145700A81D53 /* CKLeft3DMenuView */;
+			targetProxy = F491DD091C35145700A81D53 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F491DCF01C35145700A81D53 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F491DCF11C35145700A81D53 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F491DCF51C35145700A81D53 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F491DCF61C35145700A81D53 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F491DD0F1C35145700A81D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F491DD101C35145700A81D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F491DD121C35145700A81D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CKLeft3DMenuView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CK.CKLeft3DMenuView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F491DD131C35145700A81D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CKLeft3DMenuView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CK.CKLeft3DMenuView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F491DD151C35145700A81D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CKLeft3DMenuViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CK.CKLeft3DMenuViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CKLeft3DMenuView.app/CKLeft3DMenuView";
+			};
+			name = Debug;
+		};
+		F491DD161C35145700A81D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CKLeft3DMenuViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CK.CKLeft3DMenuViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CKLeft3DMenuView.app/CKLeft3DMenuView";
+			};
+			name = Release;
+		};
+		F491DD181C35145700A81D53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CKLeft3DMenuViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CK.CKLeft3DMenuViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CKLeft3DMenuView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F491DD191C35145700A81D53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CKLeft3DMenuViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = CK.CKLeft3DMenuViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CKLeft3DMenuView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F491DCDF1C35145700A81D53 /* Build configuration list for PBXProject "CKLeft3DMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F491DD0F1C35145700A81D53 /* Debug */,
+				F491DD101C35145700A81D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F491DD111C35145700A81D53 /* Build configuration list for PBXNativeTarget "CKLeft3DMenuView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F491DD121C35145700A81D53 /* Debug */,
+				F491DD131C35145700A81D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F491DD141C35145700A81D53 /* Build configuration list for PBXNativeTarget "CKLeft3DMenuViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F491DD151C35145700A81D53 /* Debug */,
+				F491DD161C35145700A81D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F491DD171C35145700A81D53 /* Build configuration list for PBXNativeTarget "CKLeft3DMenuViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F491DD181C35145700A81D53 /* Debug */,
+				F491DD191C35145700A81D53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F491DCDC1C35145700A81D53 /* Project object */;
+}
