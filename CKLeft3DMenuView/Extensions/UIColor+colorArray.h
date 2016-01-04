@@ -9,7 +9,13 @@
 #import <UIKit/UIKit.h>
 
 @interface UIColor (colorArray)
-
+/**
+ *  通过数组返回颜色
+ *
+ *  @param array [0]:Red [1]:Blue [2]:Green
+ *
+ *  @return UIColor
+ */
 + (UIColor *)colorArray:(NSArray *)array;
 
 @end

@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface UIButton (rotate)
-
+/**
+ *  旋转
+ *
+ *  @param fraction 旋转的角度
+ */
 - (void)rotate:(CGFloat)fraction;
 
 @end

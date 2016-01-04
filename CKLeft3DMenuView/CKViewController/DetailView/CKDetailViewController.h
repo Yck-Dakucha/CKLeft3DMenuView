@@ -9,9 +9,17 @@
 #import <UIKit/UIKit.h>
 
 @interface CKDetailViewController : UIViewController
-
+/**
+ *  对应图片
+ */
 @property (weak, nonatomic) IBOutlet UIImageView  *backgroundImageView;
+/**
+ *  数据字典
+ */
 @property (nonatomic, copy) NSDictionary *menuItem;
+/**
+ *  展开侧边栏按钮
+ */
 @property (nonatomic, strong) UIButton *hanmburgerBtn;
 
 @end

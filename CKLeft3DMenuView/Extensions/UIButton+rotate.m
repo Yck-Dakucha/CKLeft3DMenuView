@@ -9,10 +9,14 @@
 #import "UIButton+rotate.h"
 
 @implementation UIButton (rotate)
-
+/**
+ *  旋转
+ *
+ *  @param fraction 旋转的角度
+ */
 - (void)rotate:(CGFloat)fraction {
     CGFloat angle = (double)fraction * M_PI_2;
-    self.imageView.transform = CGAffineTransformMakeRotation((CGFloat)angle);
+    self.imageView.transform = CGAffineTransformMakeRotation(angle);
 }
 
 @end

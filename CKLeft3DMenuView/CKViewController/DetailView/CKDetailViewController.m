@@ -12,7 +12,6 @@
 
 @interface CKDetailViewController ()
 
-//@property (nonatomic, strong) CKHamburgerView *hamburgerView;
 
 @end
 
@@ -20,8 +19,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    /**
+     *  取消NavigationBar下边的横线
+     */
     self.navigationController.navigationBar.clipsToBounds = YES;
+    /**
+     *  设置leftBarButtonItem
+     */
     self.hanmburgerBtn = [[UIButton alloc] initWithFrame:CGRectMake(0, 0, 20, 20)];
     [self.hanmburgerBtn setImage:[UIImage imageNamed:@"Hamburger"] forState:UIControlStateNormal];
     [self.hanmburgerBtn addTarget:self action:@selector(hamburgerViewTapped) forControlEvents:UIControlEventTouchUpInside];
@@ -33,11 +37,9 @@
     CKContainerViewController *containerViewController = (CKContainerViewController *)navVC.parentViewController;
     [containerViewController hideOrShowMenu:!containerViewController.showingMenu animated:YES];
 }
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
+/**
+ *  重写set方法来实时更新数据
+ */
 - (void)setMenuItem:(NSDictionary *)menuItem {
     self.view.backgroundColor = [UIColor colorArray:menuItem[@"colors"]];
     self.backgroundImageView.image = [UIImage imageNamed:menuItem[@"bigImage"]];

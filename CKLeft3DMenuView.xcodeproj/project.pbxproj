@@ -13,14 +13,14 @@
 		F491DCF71C35145700A81D53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F491DCF51C35145700A81D53 /* LaunchScreen.storyboard */; };
 		F491DD021C35145700A81D53 /* CKLeft3DMenuViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F491DD011C35145700A81D53 /* CKLeft3DMenuViewTests.m */; };
 		F491DD0D1C35145700A81D53 /* CKLeft3DMenuViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F491DD0C1C35145700A81D53 /* CKLeft3DMenuViewUITests.m */; };
-		F491DD201C35159600A81D53 /* CKContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F491DD1F1C35159600A81D53 /* CKContainerViewController.m */; };
 		F491DD221C351AF300A81D53 /* MenuItems.plist in Resources */ = {isa = PBXBuildFile; fileRef = F491DD211C351AF300A81D53 /* MenuItems.plist */; };
-		F491DD271C351BDD00A81D53 /* CKMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F491DD261C351BDD00A81D53 /* CKMenuViewController.m */; };
-		F491DD2A1C351E3300A81D53 /* CKMenuViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F491DD291C351E3300A81D53 /* CKMenuViewTableViewCell.m */; };
-		F491DD2E1C3522A000A81D53 /* CKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F491DD2D1C3522A000A81D53 /* CKDetailViewController.m */; };
-		F491DD321C352BA500A81D53 /* UIColor+colorArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F491DD311C352BA500A81D53 /* UIColor+colorArray.m */; };
 		F491DD341C352E2300A81D53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F491DD331C352E2300A81D53 /* Assets.xcassets */; };
-		F491DD3F1C37AEEA00A81D53 /* UIButton+rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = F491DD3E1C37AEEA00A81D53 /* UIButton+rotate.m */; };
+		F491DD4C1C3A1E4000A81D53 /* CKContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F491DD431C3A1E4000A81D53 /* CKContainerViewController.m */; };
+		F491DD4D1C3A1E4000A81D53 /* CKDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F491DD461C3A1E4000A81D53 /* CKDetailViewController.m */; };
+		F491DD4E1C3A1E4000A81D53 /* CKMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F491DD491C3A1E4000A81D53 /* CKMenuViewController.m */; };
+		F491DD4F1C3A1E4000A81D53 /* CKMenuViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F491DD4B1C3A1E4000A81D53 /* CKMenuViewTableViewCell.m */; };
+		F491DD551C3A1E4800A81D53 /* UIButton+rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = F491DD521C3A1E4800A81D53 /* UIButton+rotate.m */; };
+		F491DD561C3A1E4800A81D53 /* UIColor+colorArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F491DD541C3A1E4800A81D53 /* UIColor+colorArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,20 +54,20 @@
 		F491DD081C35145700A81D53 /* CKLeft3DMenuViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CKLeft3DMenuViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F491DD0C1C35145700A81D53 /* CKLeft3DMenuViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CKLeft3DMenuViewUITests.m; sourceTree = "<group>"; };
 		F491DD0E1C35145700A81D53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F491DD1E1C35159600A81D53 /* CKContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKContainerViewController.h; sourceTree = "<group>"; };
-		F491DD1F1C35159600A81D53 /* CKContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKContainerViewController.m; sourceTree = "<group>"; };
 		F491DD211C351AF300A81D53 /* MenuItems.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = MenuItems.plist; sourceTree = "<group>"; };
-		F491DD251C351BDD00A81D53 /* CKMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKMenuViewController.h; sourceTree = "<group>"; };
-		F491DD261C351BDD00A81D53 /* CKMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKMenuViewController.m; sourceTree = "<group>"; };
-		F491DD281C351E3300A81D53 /* CKMenuViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKMenuViewTableViewCell.h; sourceTree = "<group>"; };
-		F491DD291C351E3300A81D53 /* CKMenuViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKMenuViewTableViewCell.m; sourceTree = "<group>"; };
-		F491DD2C1C3522A000A81D53 /* CKDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKDetailViewController.h; sourceTree = "<group>"; };
-		F491DD2D1C3522A000A81D53 /* CKDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKDetailViewController.m; sourceTree = "<group>"; };
-		F491DD301C352BA500A81D53 /* UIColor+colorArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+colorArray.h"; sourceTree = "<group>"; };
-		F491DD311C352BA500A81D53 /* UIColor+colorArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+colorArray.m"; sourceTree = "<group>"; };
 		F491DD331C352E2300A81D53 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F491DD3D1C37AEEA00A81D53 /* UIButton+rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+rotate.h"; sourceTree = "<group>"; };
-		F491DD3E1C37AEEA00A81D53 /* UIButton+rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+rotate.m"; sourceTree = "<group>"; };
+		F491DD421C3A1E4000A81D53 /* CKContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKContainerViewController.h; sourceTree = "<group>"; };
+		F491DD431C3A1E4000A81D53 /* CKContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKContainerViewController.m; sourceTree = "<group>"; };
+		F491DD451C3A1E4000A81D53 /* CKDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKDetailViewController.h; sourceTree = "<group>"; };
+		F491DD461C3A1E4000A81D53 /* CKDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKDetailViewController.m; sourceTree = "<group>"; };
+		F491DD481C3A1E4000A81D53 /* CKMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKMenuViewController.h; sourceTree = "<group>"; };
+		F491DD491C3A1E4000A81D53 /* CKMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKMenuViewController.m; sourceTree = "<group>"; };
+		F491DD4A1C3A1E4000A81D53 /* CKMenuViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKMenuViewTableViewCell.h; sourceTree = "<group>"; };
+		F491DD4B1C3A1E4000A81D53 /* CKMenuViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKMenuViewTableViewCell.m; sourceTree = "<group>"; };
+		F491DD511C3A1E4800A81D53 /* UIButton+rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+rotate.h"; sourceTree = "<group>"; };
+		F491DD521C3A1E4800A81D53 /* UIButton+rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+rotate.m"; sourceTree = "<group>"; };
+		F491DD531C3A1E4800A81D53 /* UIColor+colorArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+colorArray.h"; sourceTree = "<group>"; };
+		F491DD541C3A1E4800A81D53 /* UIColor+colorArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+colorArray.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,8 +118,8 @@
 		F491DCE61C35145700A81D53 /* CKLeft3DMenuView */ = {
 			isa = PBXGroup;
 			children = (
-				F491DD2F1C352B5900A81D53 /* Extensions */,
-				F491DD1A1C35149000A81D53 /* CKViewController */,
+				F491DD501C3A1E4800A81D53 /* Extensions */,
+				F491DD401C3A1E4000A81D53 /* CKViewController */,
 				F491DCF01C35145700A81D53 /* Main.storyboard */,
 				F491DCE71C35145700A81D53 /* Supporting Files */,
 			);
@@ -158,54 +158,54 @@
 			path = CKLeft3DMenuViewUITests;
 			sourceTree = "<group>";
 		};
-		F491DD1A1C35149000A81D53 /* CKViewController */ = {
+		F491DD401C3A1E4000A81D53 /* CKViewController */ = {
 			isa = PBXGroup;
 			children = (
-				F491DD2B1C35227400A81D53 /* DetailView */,
-				F491DD241C351BB000A81D53 /* MenuView */,
-				F491DD231C351B9D00A81D53 /* Container */,
+				F491DD411C3A1E4000A81D53 /* Container */,
+				F491DD441C3A1E4000A81D53 /* DetailView */,
+				F491DD471C3A1E4000A81D53 /* MenuView */,
 			);
-			name = CKViewController;
+			path = CKViewController;
 			sourceTree = "<group>";
 		};
-		F491DD231C351B9D00A81D53 /* Container */ = {
+		F491DD411C3A1E4000A81D53 /* Container */ = {
 			isa = PBXGroup;
 			children = (
-				F491DD1E1C35159600A81D53 /* CKContainerViewController.h */,
-				F491DD1F1C35159600A81D53 /* CKContainerViewController.m */,
+				F491DD421C3A1E4000A81D53 /* CKContainerViewController.h */,
+				F491DD431C3A1E4000A81D53 /* CKContainerViewController.m */,
 			);
-			name = Container;
+			path = Container;
 			sourceTree = "<group>";
 		};
-		F491DD241C351BB000A81D53 /* MenuView */ = {
+		F491DD441C3A1E4000A81D53 /* DetailView */ = {
 			isa = PBXGroup;
 			children = (
-				F491DD251C351BDD00A81D53 /* CKMenuViewController.h */,
-				F491DD261C351BDD00A81D53 /* CKMenuViewController.m */,
-				F491DD281C351E3300A81D53 /* CKMenuViewTableViewCell.h */,
-				F491DD291C351E3300A81D53 /* CKMenuViewTableViewCell.m */,
+				F491DD451C3A1E4000A81D53 /* CKDetailViewController.h */,
+				F491DD461C3A1E4000A81D53 /* CKDetailViewController.m */,
 			);
-			name = MenuView;
+			path = DetailView;
 			sourceTree = "<group>";
 		};
-		F491DD2B1C35227400A81D53 /* DetailView */ = {
+		F491DD471C3A1E4000A81D53 /* MenuView */ = {
 			isa = PBXGroup;
 			children = (
-				F491DD2C1C3522A000A81D53 /* CKDetailViewController.h */,
-				F491DD2D1C3522A000A81D53 /* CKDetailViewController.m */,
+				F491DD481C3A1E4000A81D53 /* CKMenuViewController.h */,
+				F491DD491C3A1E4000A81D53 /* CKMenuViewController.m */,
+				F491DD4A1C3A1E4000A81D53 /* CKMenuViewTableViewCell.h */,
+				F491DD4B1C3A1E4000A81D53 /* CKMenuViewTableViewCell.m */,
 			);
-			name = DetailView;
+			path = MenuView;
 			sourceTree = "<group>";
 		};
-		F491DD2F1C352B5900A81D53 /* Extensions */ = {
+		F491DD501C3A1E4800A81D53 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
-				F491DD301C352BA500A81D53 /* UIColor+colorArray.h */,
-				F491DD311C352BA500A81D53 /* UIColor+colorArray.m */,
-				F491DD3D1C37AEEA00A81D53 /* UIButton+rotate.h */,
-				F491DD3E1C37AEEA00A81D53 /* UIButton+rotate.m */,
+				F491DD511C3A1E4800A81D53 /* UIButton+rotate.h */,
+				F491DD521C3A1E4800A81D53 /* UIButton+rotate.m */,
+				F491DD531C3A1E4800A81D53 /* UIColor+colorArray.h */,
+				F491DD541C3A1E4800A81D53 /* UIColor+colorArray.m */,
 			);
-			name = Extensions;
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -340,14 +340,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F491DD2E1C3522A000A81D53 /* CKDetailViewController.m in Sources */,
-				F491DD3F1C37AEEA00A81D53 /* UIButton+rotate.m in Sources */,
+				F491DD551C3A1E4800A81D53 /* UIButton+rotate.m in Sources */,
 				F491DCEC1C35145700A81D53 /* AppDelegate.m in Sources */,
-				F491DD271C351BDD00A81D53 /* CKMenuViewController.m in Sources */,
-				F491DD2A1C351E3300A81D53 /* CKMenuViewTableViewCell.m in Sources */,
-				F491DD321C352BA500A81D53 /* UIColor+colorArray.m in Sources */,
-				F491DD201C35159600A81D53 /* CKContainerViewController.m in Sources */,
+				F491DD4C1C3A1E4000A81D53 /* CKContainerViewController.m in Sources */,
+				F491DD4E1C3A1E4000A81D53 /* CKMenuViewController.m in Sources */,
+				F491DD4F1C3A1E4000A81D53 /* CKMenuViewTableViewCell.m in Sources */,
+				F491DD561C3A1E4800A81D53 /* UIColor+colorArray.m in Sources */,
 				F491DCE91C35145700A81D53 /* main.m in Sources */,
+				F491DD4D1C3A1E4000A81D53 /* CKDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -573,6 +573,7 @@
 				F491DD131C35145700A81D53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F491DD141C35145700A81D53 /* Build configuration list for PBXNativeTarget "CKLeft3DMenuViewTests" */ = {
 			isa = XCConfigurationList;
@@ -581,6 +582,7 @@
 				F491DD161C35145700A81D53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F491DD171C35145700A81D53 /* Build configuration list for PBXNativeTarget "CKLeft3DMenuViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -589,6 +591,7 @@
 				F491DD191C35145700A81D53 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
